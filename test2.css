@@ -1,0 +1,29 @@
+body {
+
+	color: red;
+	background-color: black;
+	font-family: georgia, "Times New Roman", times , serif;
+	text-align: center;
+
+}
+form {
+	
+	color: white;
+	background-color: black;
+		
+}
+h1{
+
+	font-size: 200%;
+	background-color: black;
+	color: white;
+	
+}
+p { 
+
+	font-family: arial, Helvetica;
+	font-size: 150%;
+	color: black;
+	background-color: white;
+	
+}
