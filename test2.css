@@ -1,29 +1,36 @@
 body {
 
-	color: red;
-	background-color: black;
+	color: yellow;
+	background-image: url(https://images5.alphacoders.com/109/thumb-1920-1099191.jpg);
 	font-family: georgia, "Times New Roman", times , serif;
 	text-align: center;
 
 }
-form {
-	
-	color: white;
-	background-color: black;
-		
+
+#p1 {
+	color: red;
+	font-size: 200%;
 }
-h1{
+
+#myheader {
 
 	font-size: 200%;
-	background-color: black;
-	color: white;
+
+	color: blue;
 	
 }
-p { 
+
+#gif {
+	width: 400px;
+	height: auto;
+}
+
+.paragraph { 
 
 	font-family: arial, Helvetica;
-	font-size: 150%;
-	color: black;
-	background-color: white;
+	font-size: 175%;
+	color: white;
+	font-style: italic;
 	
 }
+
