@@ -37,19 +37,19 @@ function buttonFunction() {
 	document.getElementsByClassName("paragraph")[0].innerHTML = "Where does the dog live?  Inazuma"
 	document.getElementsByClassName("paragraph")[1].innerHTML = "Who is the dog?  Taroumaru"
 	document.getElementsByClassName("paragraph")[2].innerHTML = "What does it work as?  All of the above"
-    document.getElementsByClassName("paragraph")[3].innerHTML = "Does it like money?  Yes"	
+   	document.getElementsByClassName("paragraph")[3].innerHTML = "Does it like money?  Yes"	
 	document.getElementsByClassName("paragraph")[4].innerHTML = "your score is " + score
 	var message = document.getElementsByClassName("paragraph")[5].innerHTML 
-		if (score == 3 ) {
-		document.getElementsByClassName("paragraph")[5].innerHTML = "Good job you passed"	
-		}
-		if (score == 4 ) { 
-			document.getElementsByClassName("paragraph")[5].innerHTML = "Perfect, you got everything correct"	
-		}
+	if (score == 3 ) {
+	document.getElementsByClassName("paragraph")[5].innerHTML = "Good job you passed"	
+	}
+	if (score == 4 ) { 
+		document.getElementsByClassName("paragraph")[5].innerHTML = "Perfect, you got everything correct"	
+	}
 
-		else {
-			document.getElementsByClassName("paragraph")[5].innerHTML = "You failed"
-		}
+	else {
+		document.getElementsByClassName("paragraph")[5].innerHTML = "You failed"
+	}
 
 	document.getElementsByTagName("p")[0].innerHTML = "Here are the answers:"
 
