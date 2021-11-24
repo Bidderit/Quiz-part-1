@@ -11,10 +11,10 @@ function getscore() {
 	let maker =  document.querySelector("#wrong3").checked;
 	let no = document.querySelector("#no").checked;
 
-	if (question1.includes("Inazuma")==true){
+	if (question1.toLowerCase() == "inazuma"){
 		score +=1; 
 	}
-	if (question2.includes("Taroumaru")==true) {
+	if (question2.toLowerCase() == "taroumaru") {
 		score +=1; 
 	}
 	if (question3 == true && Owner == false && Mascot == false && maker == false) {
